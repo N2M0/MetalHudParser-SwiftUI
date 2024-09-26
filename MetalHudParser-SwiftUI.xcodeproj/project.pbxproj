@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2FD344F42CA50299006E001C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FD344DA2CA50297006E001C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FD344E12CA50297006E001C;
+			remoteInfo = "MetalHudParser-SwiftUI";
+		};
+		2FD344FE2CA50299006E001C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FD344DA2CA50297006E001C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FD344E12CA50297006E001C;
+			remoteInfo = "MetalHudParser-SwiftUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FD344E22CA50297006E001C /* MetalHudParser-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MetalHudParser-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD344F32CA50299006E001C /* MetalHudParser-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MetalHudParser-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD344FD2CA50299006E001C /* MetalHudParser-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MetalHudParser-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2FD344E42CA50297006E001C /* MetalHudParser-SwiftUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MetalHudParser-SwiftUI";
+			sourceTree = "<group>";
+		};
+		2FD344F62CA50299006E001C /* MetalHudParser-SwiftUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MetalHudParser-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		2FD345002CA50299006E001C /* MetalHudParser-SwiftUIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MetalHudParser-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FD344DF2CA50297006E001C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD344F02CA50299006E001C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD344FA2CA50299006E001C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD344D92CA50297006E001C = {
+			isa = PBXGroup;
+			children = (
+				2FD344E42CA50297006E001C /* MetalHudParser-SwiftUI */,
+				2FD344F62CA50299006E001C /* MetalHudParser-SwiftUITests */,
+				2FD345002CA50299006E001C /* MetalHudParser-SwiftUIUITests */,
+				2FD344E32CA50297006E001C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FD344E32CA50297006E001C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FD344E22CA50297006E001C /* MetalHudParser-SwiftUI.app */,
+				2FD344F32CA50299006E001C /* MetalHudParser-SwiftUITests.xctest */,
+				2FD344FD2CA50299006E001C /* MetalHudParser-SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FD344E12CA50297006E001C /* MetalHudParser-SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD345072CA50299006E001C /* Build configuration list for PBXNativeTarget "MetalHudParser-SwiftUI" */;
+			buildPhases = (
+				2FD344DE2CA50297006E001C /* Sources */,
+				2FD344DF2CA50297006E001C /* Frameworks */,
+				2FD344E02CA50297006E001C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2FD344E42CA50297006E001C /* MetalHudParser-SwiftUI */,
+			);
+			name = "MetalHudParser-SwiftUI";
+			packageProductDependencies = (
+			);
+			productName = "MetalHudParser-SwiftUI";
+			productReference = 2FD344E22CA50297006E001C /* MetalHudParser-SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FD344F22CA50299006E001C /* MetalHudParser-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD3450A2CA50299006E001C /* Build configuration list for PBXNativeTarget "MetalHudParser-SwiftUITests" */;
+			buildPhases = (
+				2FD344EF2CA50299006E001C /* Sources */,
+				2FD344F02CA50299006E001C /* Frameworks */,
+				2FD344F12CA50299006E001C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FD344F52CA50299006E001C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2FD344F62CA50299006E001C /* MetalHudParser-SwiftUITests */,
+			);
+			name = "MetalHudParser-SwiftUITests";
+			packageProductDependencies = (
+			);
+			productName = "MetalHudParser-SwiftUITests";
+			productReference = 2FD344F32CA50299006E001C /* MetalHudParser-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FD344FC2CA50299006E001C /* MetalHudParser-SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD3450D2CA50299006E001C /* Build configuration list for PBXNativeTarget "MetalHudParser-SwiftUIUITests" */;
+			buildPhases = (
+				2FD344F92CA50299006E001C /* Sources */,
+				2FD344FA2CA50299006E001C /* Frameworks */,
+				2FD344FB2CA50299006E001C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FD344FF2CA50299006E001C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2FD345002CA50299006E001C /* MetalHudParser-SwiftUIUITests */,
+			);
+			name = "MetalHudParser-SwiftUIUITests";
+			packageProductDependencies = (
+			);
+			productName = "MetalHudParser-SwiftUIUITests";
+			productReference = 2FD344FD2CA50299006E001C /* MetalHudParser-SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FD344DA2CA50297006E001C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					2FD344E12CA50297006E001C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					2FD344F22CA50299006E001C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 2FD344E12CA50297006E001C;
+					};
+					2FD344FC2CA50299006E001C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 2FD344E12CA50297006E001C;
+					};
+				};
+			};
+			buildConfigurationList = 2FD344DD2CA50297006E001C /* Build configuration list for PBXProject "MetalHudParser-SwiftUI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FD344D92CA50297006E001C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2FD344E32CA50297006E001C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FD344E12CA50297006E001C /* MetalHudParser-SwiftUI */,
+				2FD344F22CA50299006E001C /* MetalHudParser-SwiftUITests */,
+				2FD344FC2CA50299006E001C /* MetalHudParser-SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FD344E02CA50297006E001C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD344F12CA50299006E001C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD344FB2CA50299006E001C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FD344DE2CA50297006E001C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD344EF2CA50299006E001C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD344F92CA50299006E001C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FD344F52CA50299006E001C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FD344E12CA50297006E001C /* MetalHudParser-SwiftUI */;
+			targetProxy = 2FD344F42CA50299006E001C /* PBXContainerItemProxy */;
+		};
+		2FD344FF2CA50299006E001C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FD344E12CA50297006E001C /* MetalHudParser-SwiftUI */;
+			targetProxy = 2FD344FE2CA50299006E001C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FD345052CA50299006E001C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FD345062CA50299006E001C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2FD345082CA50299006E001C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MetalHudParser-SwiftUI/MetalHudParser_SwiftUI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MetalHudParser-SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.squaredream.MetalHudParser-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2FD345092CA50299006E001C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MetalHudParser-SwiftUI/MetalHudParser_SwiftUI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MetalHudParser-SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.squaredream.MetalHudParser-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2FD3450B2CA50299006E001C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.squaredream.MetalHudParser-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalHudParser-SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetalHudParser-SwiftUI";
+			};
+			name = Debug;
+		};
+		2FD3450C2CA50299006E001C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.squaredream.MetalHudParser-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalHudParser-SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetalHudParser-SwiftUI";
+			};
+			name = Release;
+		};
+		2FD3450E2CA50299006E001C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.squaredream.MetalHudParser-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MetalHudParser-SwiftUI";
+			};
+			name = Debug;
+		};
+		2FD3450F2CA50299006E001C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.squaredream.MetalHudParser-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MetalHudParser-SwiftUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FD344DD2CA50297006E001C /* Build configuration list for PBXProject "MetalHudParser-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD345052CA50299006E001C /* Debug */,
+				2FD345062CA50299006E001C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD345072CA50299006E001C /* Build configuration list for PBXNativeTarget "MetalHudParser-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD345082CA50299006E001C /* Debug */,
+				2FD345092CA50299006E001C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD3450A2CA50299006E001C /* Build configuration list for PBXNativeTarget "MetalHudParser-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD3450B2CA50299006E001C /* Debug */,
+				2FD3450C2CA50299006E001C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD3450D2CA50299006E001C /* Build configuration list for PBXNativeTarget "MetalHudParser-SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD3450E2CA50299006E001C /* Debug */,
+				2FD3450F2CA50299006E001C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FD344DA2CA50297006E001C /* Project object */;
+}
