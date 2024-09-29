@@ -12,7 +12,7 @@ struct FramerateChartView: View {
             Text("Framerate Chart by MetalHUDParser-SwiftUI").font(.largeTitle)
             Spacer()
             
-            //There are an error about
+            //There is an error about
             //"The compiler is unable to type-check this expression in reasonable time"
             //So do not use Type Inference more
             
