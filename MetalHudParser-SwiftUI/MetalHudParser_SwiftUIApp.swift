@@ -11,7 +11,7 @@ import SwiftUI
 struct MetalHudParser_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CSVOpenView()
         }
     }
 }

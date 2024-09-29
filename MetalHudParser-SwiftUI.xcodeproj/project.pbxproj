@@ -29,9 +29,22 @@
 		2FD344FD2CA50299006E001C /* MetalHudParser-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MetalHudParser-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2FD345182CA52348006E001C /* Exceptions for "MetalHudParser-SwiftUI" folder in "MetalHudParser-SwiftUI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2FD344E12CA50297006E001C /* MetalHudParser-SwiftUI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2FD344E42CA50297006E001C /* MetalHudParser-SwiftUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2FD345182CA52348006E001C /* Exceptions for "MetalHudParser-SwiftUI" folder in "MetalHudParser-SwiftUI" target */,
+			);
 			path = "MetalHudParser-SwiftUI";
 			sourceTree = "<group>";
 		};
@@ -399,11 +412,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MetalHudParser-SwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MetalHudParser-SwiftUI/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.squaredream.MetalHudParser-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,11 +439,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MetalHudParser-SwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MetalHudParser-SwiftUI/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.squaredream.MetalHudParser-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
