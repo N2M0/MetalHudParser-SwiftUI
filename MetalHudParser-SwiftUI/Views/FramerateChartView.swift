@@ -18,7 +18,7 @@ struct FramerateChartView: View {
             
             if let bindingSelected = selectedData {
                 HStack{
-                    Text(String(Int(bindingSelected) / Int(60)) + "m " + String(Int(bindingSelected) % Int(60)) + "s / ")
+                    Text(String(Int(bindingSelected+1) / Int(60)) + "m " + String(Int(bindingSelected+1) % Int(60)) + "s / ")
                         .font(.title2)
                     Text("FPS : " + String(dataSet.fpsData[bindingSelected]))
                         .font(.title2)
