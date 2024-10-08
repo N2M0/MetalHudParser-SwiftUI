@@ -56,9 +56,13 @@ class DataSet{
                 case 2:
                     memoryData.append(Double(rawData[rowIndex][2])!)
                 default:
-                    if colIndex % 2 == 1 {
+                    if colIndex % 2 == 1 && rawData[rowIndex][colIndex] != "" {
                         if rawData[rowIndex][colIndex].contains("<…>"){
                             missedFrameTimeData.append(rawData[rowIndex][colIndex])
+                            missedFrameTime = missedFrameTime + 1
+                        }
+                        else if rawData[rowIndex][colIndex] == ""{
+                            missedFrameTimeData.append("<…>")
                             missedFrameTime = missedFrameTime + 1
                         }
                         else{frameTimeData.append(Double(rawData[rowIndex][colIndex])!)}
@@ -66,7 +70,11 @@ class DataSet{
                     else {
                         if rawData[rowIndex][colIndex].contains("<…>"){
                             missedGPUTimeData.append(rawData[rowIndex][colIndex])
-                            missedGPUTime = missedFrameTime + 1
+                            missedGPUTime = missedGPUTime + 1
+                        }
+                        else if rawData[rowIndex][colIndex] == ""{
+                            missedGPUTimeData.append("<…>")
+                            missedGPUTime = missedGPUTime + 1
                         }
                         else{gpuTimeData.append(Double(rawData[rowIndex][colIndex])!)}
                     }
