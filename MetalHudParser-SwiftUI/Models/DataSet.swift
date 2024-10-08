@@ -52,7 +52,7 @@ class DataSet{
                 case 0:
                     dataHeader = rawData[rowIndex][0]
                 case 1:
-                    missedFrame = missedFrame + Double(rawData[rowIndex][1])!
+                    missedFrame = Double(rawData[rowIndex][1])!
                 case 2:
                     memoryData.append(Double(rawData[rowIndex][2])!)
                 default:
