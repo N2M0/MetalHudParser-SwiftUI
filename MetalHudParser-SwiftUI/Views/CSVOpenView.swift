@@ -20,6 +20,7 @@ struct CSVOpenView: View {
                 }
                 Text(dataStatus)
                     .font(.title)
+                    .foregroundStyle(.mhpText)
                 
                 if !isParseDone{
                     Button("Import CSV") {
@@ -27,6 +28,7 @@ struct CSVOpenView: View {
                         dataStatus = "Please wait for a moment..."
                     }
                     .font(.title)
+                    .foregroundStyle(.mhpText)
                     .fileImporter(isPresented: $isImporting, allowedContentTypes: [.commaSeparatedText]) { result in
                         switch result {
                         case .success(let url):
@@ -42,9 +44,11 @@ struct CSVOpenView: View {
                     }
                 }
                 Spacer()
-            }.background(Color.white)
+            }
+            .background(.mhpBackGround)
             Spacer()
-        }.background(Color.white)
+        }
+        .background(.mhpBackGround)
     }
 }
 

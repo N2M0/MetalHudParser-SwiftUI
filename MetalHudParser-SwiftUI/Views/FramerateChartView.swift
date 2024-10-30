@@ -9,7 +9,9 @@ struct FramerateChartView: View {
     var body: some View {
         VStack{
             Spacer()
-            Text("Framerate Chart by MetalHUDParser-SwiftUI").font(.largeTitle)
+            Text("Framerate Chart by MetalHUDParser-SwiftUI")
+                .font(.largeTitle)
+                .foregroundStyle(.mhpText)
             Spacer()
             
             //There is an error about
@@ -19,13 +21,15 @@ struct FramerateChartView: View {
             if let bindingSelected = selectedData {
                 HStack{
                     Text(String(Int(bindingSelected+1) / Int(60)) + "m " + String(Int(bindingSelected+1) % Int(60)) + "s / ")
-                        .font(.title2)
                     Text("FPS : " + String(dataSet.fpsData[bindingSelected]))
-                        .font(.title2)
+                     
                 }
+                .font(.title2)
+                .foregroundStyle(.mhpText)
             } else {
                 Text("Time / FPS")
                     .font(.title2)
+                    .foregroundStyle(.mhpText)
             }
             
             Chart(){
@@ -61,7 +65,8 @@ struct FramerateChartView: View {
             }
             .chartXSelection(value: $selectedData)
             Spacer()
-        }.background(Color.white)
+        }
+        .background(.mhpBackGround)
     }
 }
 
